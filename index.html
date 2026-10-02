@@ -197,42 +197,6 @@
         // PASTE YOUR PUBLISHED GOOGLE SHEET CSV LINK INSIDE THE QUOTES
         const GOOGLE_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTDxI0zCT7vfzVqcnmtipaRT2XOXqqT8u7YQWyYbfDDxly-919aHykyzAG1gyRSM0c-6F6pe2VaT_8g/pub?gid=0&single=true&output=csv";
 
-        // Default Sample Stock with images
-        const sampleInventory = [
-            {
-                Title: "Dell Latitude 3410",
-                Condition: "refurbished",
-                Warranty: "6 Months Store Warranty",
-                CPU: "Intel Core i5 10th Gen",
-                RAM: "8 GB DDR4",
-                Storage: "256 GB NVMe SSD",
-                Display: "14\" Full HD Display",
-                Price: "22500",
-                Image: "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=600&q=80"
-            },
-            {
-                Title: "HP Pavilion 15",
-                Condition: "new",
-                Warranty: "1 Year Brand Warranty",
-                CPU: "AMD Ryzen 5 5600H",
-                RAM: "16 GB DDR4",
-                Storage: "512 GB NVMe SSD",
-                Display: "15.6\" FHD Display",
-                Price: "56000",
-                Image: "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=600&q=80"
-            },
-            {
-                Title: "Lenovo ThinkPad L480",
-                Condition: "secondhand",
-                Warranty: "3 Months Store Warranty",
-                CPU: "Intel Core i5 8th Gen",
-                RAM: "8 GB DDR4",
-                Storage: "256 GB SSD",
-                Display: "14\" HD Display",
-                Price: "16500",
-                Image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&q=80"
-            }
-        ];
 
         document.addEventListener("DOMContentLoaded", function() {
             if (GOOGLE_SHEET_CSV_URL && GOOGLE_SHEET_CSV_URL.trim() !== "") {
